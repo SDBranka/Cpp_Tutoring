@@ -1,0 +1,62 @@
+C++
+
+Assignment #3 – Specifications
+You will write three programs that will reinforce the syntax of different statements for C++.  All of these programs should be saved with a meaningful name that signifies what task it accomplishes.  All input prompts should be prefaced by an explanation of the desired input and all output prompts should be thoroughly explained to the user.
+
+A)  Compound Conditioned Loops:  The concept of a compound conditional was introduced in Assignment #2 with the use of Boolean logic, i.e. AND (&&), OR (||), and NOT (!).  You will write a program to practice using a compound conditional.  Your program will act as a counting program that will allow the user to put in a ‘start’, ‘stop’, and ‘count by’ value that you will use to construct a simple ‘for’ loop that will print out numbers.  Though you must add error checking into this program with the use of ‘while’ loops.  You should not execute the ‘for’ loop until you know the user has given you correct data.  Please adhere to the following conditions:
+‘start’, ‘stop’, and ‘count by’ can be decimal
+‘start’ and ‘stop’ may both be negative
+‘count by’ must be negative if ‘stop’ < ‘start’
+‘count by’ must be positive if ‘start’ < ‘stop’
+‘count by’ may NEVER be zero.
+Sample output:
+	Please enter a value to start counting at: 2
+	Please enter a value to stop counting at: 5
+	Please enter a value to count by: 0.5
+	Count: 2, 2.5, 3, 3.5, 4, 4.5, 5
+
+B)  Find Your Favorite Number: Fill a 10 index array with random numbers from a range specified by the user.  Display array on screen with new random numbers and ask for a number to search for.  Print out the indexes where that number can be found or ‘Does Not Exist’ if that number is not in the array.
+Reads two different integers from user to specify range of random numbers.
+Fill array with 10 random numbers between the given range
+Display filled array on the screen.
+Read in a single integer from the user of the number that she/he wants to find.
+If that number the user types exists in the array, then print out on the screen the corresponding index value where that number is located.
+Your program should allow for multiple existences of a given number.
+If that number the user typed in does not exist in the array, then explain so.
+
+Sample output:
+Please type in two integers:
+Integer #1: 10
+Integer #2: 23
+Filled Array: 
+#1: 12
+#2: 23
+#3: 15
+#4: 17
+#5: 13
+#6: 16
+#7: 17
+#8: 18
+#9: 14
+#10: 13 
+
+Please type in the number you would like to find: 13 
+Your number can be found at index value(s):  4, 9
+
+C)  Guessing Game: Have the user guess a series of 5 different random numbers.  An array should be used to keep track of the random numbers and how many guesses it took to correctly guess each number.  The random numbers should be a set range of 10 numbers of your choice.  After each number is correctly guessed, a prompt should come up and congratulate the user and move onto the next number.  After all five have been guessed, a visual representation of the number of guesses it took for each number should be shown, along with the total number of guesses for all five numbers.
+Declare an array to store five random number
+Numbers must be between a set range
+Declare array to keep track of how many guesses for each number
+Display a message when the user gets a number correct
+After all numbers are correctly guessed, show visual
+Use asteriks (*) to mark number of guesses (see below)
+Write a procedure that takes care of displaying the visual information
+Should be of type void
+Display random number, number of guesses ( * ), total guesses
+Allow user to play the game multiple times.
+
+Note:  For test cases, you may want to display an output of the array on the screen.
+
+Sample output: Will follow in the form of a working program
+
+**Be sure to include appropriate comments and correct naming of variables.**

@@ -1,0 +1,8 @@
+  double compguess[]={rand()%(1-10-1), rand()%(1-10-1)}
+  
+
+  int asedf[10]={0};
+  for (intx=0;x<9;x++)
+  {
+    asedf[x]=rand()%(1-10-1)
+  }

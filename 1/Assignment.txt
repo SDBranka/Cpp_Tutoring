@@ -1,0 +1,29 @@
+C++
+
+Assignment #4 – Specifications
+You will write two programs that will reinforce the syntax of different statements for C++.  All of these programs should be saved under a single directory on your titled: “Assignment 4” and each program should have a meaningful name that signifies what task it accomplishes.  All input prompts should be prefaced by an explanation of the desired input and all output prompts should be thoroughly explained to the user.  Sample outputs will follow shortly in the form of completed programs (*.EXE) in the assignment folder.
+
+A)  Guessing Game (Revisited):
+This time, play the game in reverse
+Have the user enter five integers for the computer to guess
+Set boundaries and make sure they are adhered to
+Use random numbers to have the computer ‘guess’
+Record each guess until the computer gets all of them right
+Use a two-dimensional integer array (or two single dimensional arrays)
+One row for numbers from user
+One row for guesses that it took the computer
+Use two procedures
+One make the computer guess the number
+One to display the asterisks
+While computer is guessing, show each guess and write prompt if wrong or correct
+
+B)  Math Formulas: There are many 3-dimensional shapes that are introduced in math along with the corresponding volume and surface area formulas.  For this assignment, you will be writing the functions that will compute volume and surface area for 3 shapes (Please reference your agenda for the appropriate formulas).  Along with these six functions, you must also write a ‘pow’ type function that is used to compute powers of a number (You may not use the pow(x,y) function), though you may use sqrt(x).  Please make sure that all of your functions have meaningful names that signify the task that they accomplish.  In addition, in ‘int main()’ must ask for appropriate values from the user, calls the function, and then outputs the results on the screen in a neat format with correct units!  After the calculations are complete, the user must have the ability to repeat the program.  Please include a menu system for the user interface.
+Write a function that will calculate powers (  x y  )
+Must accept two ‘double’ as input values and return one ‘double’ value
+Write a function to calculate the volume and surface area for the following shapes
+Sphere - only ask for radius, Cone - only ask for radius & height, Cylinder - only ask for radius & height.
+“int main()” program should get values from user, call functions, and display results
+Use a ‘const’ variable for PI = 3.14159 (Name is all capital letters)
+All calculations should be displayed to 4 decimal places
+Your functions should be able to handle negative input values
+‘main()’ program will not check, functions do and return calculations.

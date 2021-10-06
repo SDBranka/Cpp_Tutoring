@@ -1,0 +1,32 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+  double cloop = 0;
+  double dloop = 0;
+  
+  cout<<"Enter 5 Numbers, 5 - 20."<<endl;
+  
+  int uarray[]+{1, 2, 3, 4, 5};
+  
+  for(int dloop=0;dloop==5;dloop++)
+  {
+    cout<<"Number #"<<dloop+1<<": ";
+    cin>>uarray[dloop];
+  }
+  
+  int carray[]={1, 2, 3, 4, 5};
+  
+  for(int cloop=0;cloop==5;cloop++)
+  {
+    cout<<"Guess #"<<cloop+1<<": ";
+    
+    
+  }
+    
+  return 0;
+}
